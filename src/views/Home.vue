@@ -47,7 +47,7 @@
             <p class="fade-in3">VBASIC</p>
           </div>
           <ul class="p-3 introText mb-5 pb-5">
-            <h2 class="splashTextName text-center">Brent Jones</h2>
+            <h2 class="splashTextName text-center">Z. S. Burke</h2>
             <br />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -201,8 +201,8 @@ export default {
 .fade-in1 {
   animation: fadeIn1 ease 5s;
   border-bottom: double white 50px;
-  border-left: double #98ee99 50px;
-  background: linear-gradient(0.25turn, #98ee99, #ebf8e1, white);
+  border-left: double #83CBBA 50px;
+  background: linear-gradient(0.25turn, #83CBBA, #ebf8e1, white);
   -webkit-animation: fadeIn1 ease 5s;
   -moz-animation: fadeIn1 ease 5s;
   -o-animation: fadeIn1 ease 5s;
@@ -219,8 +219,8 @@ export default {
 .fade-in2 {
   animation: fadeIn2 ease 7.5s;
   border-bottom: double white 50px;
-  border-left: double #2196f3 50px;
-  background: linear-gradient(0.25turn, #2196f3, #6ec6ff, white);
+  border-left: double #F8F3CB 50px;
+  background: linear-gradient(0.25turn, #F8F3CB, #6ec6ff, white);
   -webkit-animation: fadeIn2 ease 7.5s;
   -moz-animation: fadeIn2 ease 7.5s;
   -o-animation: fadeIn2 ease 7.5s;

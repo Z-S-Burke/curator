@@ -4,7 +4,7 @@
     <b-navbar class="header_style" toggleable="lg" top="fixed" id="navbar">
       <b-navbar-brand>
         <router-link to="/" class="d-flex align-items-center-text-light ml-2">
-          <h2 class="namesake ml-2 mt-2 text-dark">Brent Jones</h2>
+          <h2 class="namesake ml-2 mt-2 text-dark">Z. S. Burke</h2>
         </router-link>
       </b-navbar-brand>
 
@@ -52,16 +52,15 @@
   width: 50px;
 }
 .header_style {
-  background-color: #66bb6a;
+  background-color: #E07458;
   width: 100%;
 }
 .navItems {
-    background-color: #2196f3;
-    border: solid white 1px;
+    background-color: #5A7370;
 }
 .namesake {
   font-size: 32px; 
-  font-family: impact; 
+  font-family: Georgia; 
 }
 .logo_text {
   text-decoration: none;
