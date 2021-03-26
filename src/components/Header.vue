@@ -11,15 +11,10 @@
       <b-navbar-toggle target="nav-collapse" class="navItems"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item>
-            <router-link class="text-dark" to="/">Home</router-link>
-          </b-nav-item>
-        </b-navbar-nav>
 
         <b-navbar-nav>
           <b-nav-item>
-            <router-link class="text-dark" to="/bio">R&amp;D</router-link>
+            <router-link class="text-dark" to="/bio">Work</router-link>
           </b-nav-item>
         </b-navbar-nav>
 
