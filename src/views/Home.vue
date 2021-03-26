@@ -6,7 +6,7 @@
         <p class="fade-in2Mobile">Ruby</p>
         <p class="fade-in3Mobile">Visual Basic</p>
       </div>
-      <h3>Here is a generic intro sentence. </h3>
+      <h3>Here is a generic intro sentence.</h3>
       <br />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -41,13 +41,9 @@
     <div v-if="!mobileCheck()">
       <div class="text-left text-dark textBoxStyle">
         <div class="d-flex flex-row align-items-center justify-content-around">
-          <div class="splashText">
-            <p class="fade-in1">C++</p>
-            <p class="fade-in2">Ruby</p>
-            <p class="fade-in3">VBASIC</p>
-          </div>
+          <img class="splashImage" src="..\assets\warhorse.png"/>
           <ul class="p-3 introText mb-5 pb-5">
-            <h2 class="splashTextName text-center">Z. S. Burke</h2>
+            <h2 class="splashTextName text-center">write, write, write </h2>
             <br />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -159,6 +155,33 @@ export default {
 .bglight {
   background-color: rgba(255, 255, 255, 0.452);
 }
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 750px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  height: 100%;
+  width: 32.5%;
+  background: white;
+  transition: transform 0.4s;
+}
+
+.slide:hover {
+  font-weight: bold;
+}
+
 .textHeader {
   background-color: #2196f3;
   font-size: 32px;
@@ -167,6 +190,11 @@ export default {
 .textBoxStyle {
   background-color: white;
 }
+
+.splashImage {
+    width: 60vw;
+}
+
 .splashText {
   font-size: 9.5vw;
   font-weight: bold;
@@ -175,11 +203,13 @@ export default {
   flex-direction: column;
   padding-left: 20px;
   width: 60%;
+  font-family: Georgia;
 }
 .splashTextName {
   font-size: 9.5vw;
   font-weight: bold;
   display: flex;
+  font-family: Georgia;
 }
 .splashTextMobile {
   font-size: 10.5vw;
@@ -190,7 +220,7 @@ export default {
 }
 .introText {
   width: 40%;
-  height: 70vh;
+  height: 90vh;
   margin-right: 50px;
   overflow: scroll;
   /*
@@ -201,8 +231,8 @@ export default {
 .fade-in1 {
   animation: fadeIn1 ease 5s;
   border-bottom: double white 50px;
-  border-left: double #83CBBA 50px;
-  background: linear-gradient(0.25turn, #83CBBA, #ebf8e1, white);
+  border-left: double #83cbba 50px;
+  background: linear-gradient(0.25turn, #83cbba, #ebf8e1, white);
   -webkit-animation: fadeIn1 ease 5s;
   -moz-animation: fadeIn1 ease 5s;
   -o-animation: fadeIn1 ease 5s;
@@ -219,8 +249,8 @@ export default {
 .fade-in2 {
   animation: fadeIn2 ease 7.5s;
   border-bottom: double white 50px;
-  border-left: double #F8F3CB 50px;
-  background: linear-gradient(0.25turn, #F8F3CB, #6ec6ff, white);
+  border-left: double #f8f3cb 50px;
+  background: linear-gradient(0.25turn, #f8f3cb, #6ec6ff, white);
   -webkit-animation: fadeIn2 ease 7.5s;
   -moz-animation: fadeIn2 ease 7.5s;
   -o-animation: fadeIn2 ease 7.5s;
